@@ -1,0 +1,89 @@
+/* pages/calendar/calendar.wxss */
+.top-handle {
+    height: 80rpx;
+}
+.prev {
+    text-align: right;
+    height: 80rpx;
+}
+.next {
+    height: 80rpx;
+}
+.prev-handle {
+    width: 80rpx;
+    height: 100%;
+}
+.next-handle {
+    width: 80rpx;
+    height: 100%;
+}
+.date-area {
+    width: 50%;
+    height: 80rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #333;
+}
+.weeks {
+    height: 50rpx;
+    line-height: 50rpx;
+    opacity: 0.5
+}
+.week {
+    text-align: center;
+}
+.days {
+    height: 500rpx;
+}
+.grid {
+    width: 107.1428571429rpx;
+}
+.day {
+    width: 60rpx;
+    height: 60rpx;
+    color: #000;
+    font-size: 26rpx;
+    font-weight: 200;
+}
+.border-radius {
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+.blue-bg {
+    background-color: #02b5f9;
+}
+.purple-bg {
+    background-color: #b8b8f1;
+}
+.grey-bg {
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    color: #fff;
+}
+.grey-color{
+  color: #999;
+}
+.btn-list-wrap{
+  width: 100%;
+  text-align: center;
+}
+.btn-list{
+  display: inline-block;
+  height: 70rpx;
+}
+.btn-item{
+  width: 160rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  background-color: #02b5f9;
+  color: #fff;
+  font-size: 30rpx;
+  float: left;
+  border-radius: 10rpx;
+}
+.cancelBtn{ margin-right: 40rpx;background-color: #fff;color: #333;border:1px solid #d1d1d1;}
+.clearBtn{ margin-right: 40rpx;background-color: #d1d1d1;}
